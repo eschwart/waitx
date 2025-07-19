@@ -1,0 +1,15 @@
+[package]
+name = "waitx"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/eschwart/waitx"
+authors = ["Evan Schwartzentruber <evandotschwartzentruber@gmail.com>"]
+description = "Lightweight synchronization primitive for one-time ready/wait signaling with optional notification."
+keywords = ["synchronization", "ready", "notify", "condvar", "atomic"]
+categories = ["concurrency", "asynchronous", "data-structures"]
+exclude = [".github/", ".gitignore", "LICENSE"]
+
+[dependencies]
+crossbeam-utils = "0.8.21"
+parking_lot = "0.12.4"
